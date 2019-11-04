@@ -1,0 +1,55 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+library(congress116)
+options(width = 90)
+```
+
+# congress116
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Data on Members of the 116th U.S. Congress
+
+## Installation
+
+You can install the released version of congress116 from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("congress116")
+```
+
+or the development version from Github
+
+``` r
+remotes::install_github("r-congress/congress116)
+```
+
+
+## Data
+
+Identifiers for members of the 116th U.S. Congress can be found in the `congress116` dataset
+
+```{r}
+head(congress116)
+```
+
+## Functions
+
+Convenience functions are included for importing and joining Congressional data
+
+``` r
+pp_join(congress116)
+```
+

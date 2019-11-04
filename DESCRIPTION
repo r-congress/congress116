@@ -1,0 +1,23 @@
+Package: congress116
+Title: Data on Members of the 116th U.S. Congress
+Version: 0.0.1
+Authors@R: c(
+    person("Michael W.", "Kearney", ,
+      email = "kearneymw@missouri.edu", role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-0730-4694")),
+    person("Lingshu", "Hu", ,
+      role = c("ctb"),
+      comment = c(ORCID = "0000-0003-0304-882X")),
+    person("Alevia", "Iuliia", ,
+      role = c("ctb"),
+      comment = c(ORCID = "0000-0001-6270-8985")),
+    person("Park", "Jihye", ,
+      role = c("ctb"))
+    )
+Description: This package provides data identifiers–e.g., congressional IDs,
+    Twitter IDs–and data-importing convenience functions for information about
+    members of the 116th United States Congress (Representatives and Senators).
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+License: MIT + file LICENSE

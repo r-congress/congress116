@@ -1,0 +1,13 @@
+#' IDs for members of the 116th U.S. Congress
+#'
+#' A dataset containing official and twitter identifiers associated with members
+#' of the 116th U.S. Congress
+#'
+#' @format A data frame with 544 rows and 3 variables:
+#' \describe{
+#'   \item{bioguide}{official congressional ID}
+#'   \item{screen_name_official}{twitter handle associated with (via declaration or .gov URL in account profile) the office held by a member of congress}
+#'   \item{screen_name_personal}{twitter handle associated with the person–independent of the office}
+#' }
+#' @source \url{https://twitter.com/}
+"congress116"
