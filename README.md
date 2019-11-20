@@ -21,7 +21,7 @@ install.packages("congress116")
 or the development version from Github
 
 ``` r
-remotes::install_github("r-congress/congress116)
+remotes::install_github("r-congress/congress116")
 ```
 
 ## Data
