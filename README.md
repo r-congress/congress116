@@ -31,13 +31,34 @@ Identifiers for members of the 116th U.S. Congress can be found in the
 
 ``` r
 head(congress116)
-#>   bioguide screen_name_official screen_name_personal
-#> 1  A000374           RepAbraham                 <NA>
-#> 2  A000370             RepAdams                 <NA>
-#> 3  A000055      Robert_Aderholt                 <NA>
-#> 4  A000371       reppeteaguilar          aguilarpete
-#> 5  A000360         SenAlexander                 <NA>
-#> 6  A000372         reprickallen                 <NA>
+#>   bioguide     full_name gender chamber district state party       dataset     type
+#> 1  A000374 Ralph Abraham      M     rep        5    LA     R tweetcongress official
+#> 2  A000374 Ralph Abraham      M     rep        5    LA     R   congress116 official
+#> 3  A000374 Ralph Abraham      M     rep        5    LA     R    propublica official
+#> 4  A000370    Alma Adams      F     rep       12    NC     D tweetcongress official
+#> 5  A000370    Alma Adams      F     rep       12    NC     D   congress116 official
+#> 6  A000370    Alma Adams      F     rep       12    NC     D    propublica official
+#>   screen_name date_of_birth facebook_account youtube_account govtrack_id cspan_id
+#> 1  RepAbraham          <NA>             <NA>            <NA>        <NA>     <NA>
+#> 2  RepAbraham          <NA>             <NA>            <NA>        <NA>     <NA>
+#> 3  RepAbraham          <NA>             <NA>            <NA>        <NA>     <NA>
+#> 4    RepAdams          <NA>             <NA>            <NA>        <NA>     <NA>
+#> 5    RepAdams          <NA>             <NA>            <NA>        <NA>     <NA>
+#> 6    RepAdams          <NA>             <NA>            <NA>        <NA>     <NA>
+#>   votesmart_id icpsr_id crp_id google_entity_id fec_candidate_id  url rss_url cook_pvi
+#> 1         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#> 2         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#> 3         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#> 4         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#> 5         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#> 6         <NA>     <NA>   <NA>             <NA>             <NA> <NA>    <NA>     <NA>
+#>   dw_nominate ideal_point at_large congress
+#> 1          NA          NA       NA     <NA>
+#> 2          NA          NA       NA     <NA>
+#> 3          NA          NA       NA     <NA>
+#> 4          NA          NA       NA     <NA>
+#> 5          NA          NA       NA     <NA>
+#> 6          NA          NA       NA     <NA>
 ```
 
 ## Functions
