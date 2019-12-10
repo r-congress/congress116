@@ -19,7 +19,7 @@ Description: This package provides data identifiers–e.g., congressional IDs,
     members of the 116th United States Congress (Representatives and Senators).
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 License: MIT + file LICENSE
 URL: https://github.com/mkearney/congress116
 BugReports: https://github.com/mkearney/congress116/issues
